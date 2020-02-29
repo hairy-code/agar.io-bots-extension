@@ -146,8 +146,8 @@ class Client {
         <input onchange="localStorage.setItem('botAmount', this.value);" id="BotAmount" maxlength="3" class="form-control" placeholder="Bot Amount" value="10"></input>
         <center><button id="toggleButton" onclick="window.client.startBots(localStorage.getItem('botAmount'));" class="btn btn-success">Start Bots</button></center>
         `);
-        if (!localStorage.getItem('botAmount')) localStorage.setItem('botAmount', 10);
-        if (!localStorage.getItem('botNick')) localStorage.setItem('botNick', 'Sanik');
+        if (!localStorage.getItem('botAmount')) localStorage.setItem('botAmount', 100);
+        if (!localStorage.getItem('botNick')) localStorage.setItem('botNick', '9GAG');
         console.log('[AgarUnlimited] Ready!');
     }
 
